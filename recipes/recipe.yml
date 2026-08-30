@@ -9,6 +9,9 @@ description: This is my personal OS image.
 base-image: quay.io/pocketblue/qualcomm-sdm845-gnome-mobile
 image-version: 44 # You can pin to a specific version of Fedora as well
 
+platforms:
+  - linux/arm64
+
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
